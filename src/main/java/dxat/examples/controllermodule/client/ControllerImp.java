@@ -145,7 +145,7 @@ public class ControllerImp implements ControllerInterface {
 
 			for (Path elementsIface : interfacesSw) {
 				Node nodeIface = elementsIface.endNode();
-				int portId = (int) nodeIface.getProperty("portId");
+				int portId = (int) Integer.parseInt((String) nodeIface.getProperty("portId"));
 				for (Interface itf : sw.getInterfaces().getInterfaces()) {
 					if (itf.getPortId() == portId) {
 						nodeIface.setProperty("inventoryId",
