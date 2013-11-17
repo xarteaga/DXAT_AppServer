@@ -28,7 +28,7 @@ import dxathacks.floodlightcontroller.pojos.Switch;
 
 public class ControllerImp implements ControllerInterface {
 
-	private static final String DB_PATH = "/mnt/ram/graph.db";
+	private static final String DB_PATH = "/home/jesus/graph-network";
 	private GraphDatabaseService graphDb;
 	private static Index<Node> listIfaceDevices; // In order to make indexes
 													// over the nodes

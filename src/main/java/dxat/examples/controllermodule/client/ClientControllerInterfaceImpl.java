@@ -12,7 +12,7 @@ public class ClientControllerInterfaceImpl implements ControllerInterface {
 
 	public void addSwitch(Switch sw) {
 		System.out.println("ADD Switch: " + new Gson().toJson(sw));
-	}
+	} 
 
 	public void updateSwitch(Switch sw) {
 		System.out.println("UPDATE Switch: " + new Gson().toJson(sw));
