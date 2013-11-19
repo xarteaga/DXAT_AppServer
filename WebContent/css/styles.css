@@ -158,13 +158,13 @@ hr {
 }
 
 .modal-dialog-full {
-	width: 90%;
+	width: 100%;
 	height: 90%;
 	padding: 0;
 }
 
 .modal-content-full {
-	height: 90%;
+	height: 100%;
 	border-radius: 0;
 }
 
@@ -255,6 +255,12 @@ html,body {
 }
 
 /*grafics*/
+.nodeBLUE {
+	stroke: #fff;
+	stroke-width: 1.5px;
+	fill: blue;
+}
+
 .nodeRED {
 	stroke: #fff;
 	stroke-width: 1.5px;
@@ -279,6 +285,51 @@ html,body {
 }
 
 .topo {
+	width: 430px;
+	height: 410px;
+}
+
+
+/*statistics*/
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+.send-stats {
+	width: 430px;
+	height: 410px;
+}
+
+.received-stats {
+	width: 430px;
+	height: 410px;
+}
+
+.error-stats {
 	width: 430px;
 	height: 410px;
 }
